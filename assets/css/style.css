@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #FFFFFF, #F5F5F5, #DCE0F5);
+}
+
+.container {
+    max-width: 350px;
+    height: 500px;
+    background-color: #FFFFFF;
+    margin: 3.5rem auto;
+    padding: 2rem;
+    font:  1.2rem Montserrat, sans-serif;
+}
+
+.calc-input {
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-align: right;
+    color: #616060;
+    border: none;
+}
+
+.calc-btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.btn {
+    width: 100%;
+    height: 3.5rem;
+    font-size: 1.8rem;
+    color: #616060;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #e2e1e1;
+}
+
+.btn-operator {
+    background-color: #ededed;
+}
+
+.btn-eq {
+    background: #8D98DE;
+}
+
+.btn-eq:hover {
+    background: rgb(110, 124, 250);
+}
