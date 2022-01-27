@@ -1,2 +1,2 @@
-# calculator
-Calculadora básica feita em html, css e javascript aplicando conceitos de Constructor Functions.
+# Calculadora Básica
+Calculadora básica feita em HTML, CSS e JavaScript aplicando conceitos de Constructor Functions.
